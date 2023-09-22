@@ -162,9 +162,9 @@ Hasil yang didapatkan adalah jdrnja, dan dikarenakan huruf yang digunakan semua 
 Berapa jumlah packet yang menuju IP 184.87.193.88?
 
 ## **Penyelesaian Soal Nomor 7** 
-Untuk menghitung packet yang menuju ip 184.87.193.88 tinggal melakukan filter `ip.src == 184.87.193.88`. Setelah itu dapat dilihat jumlah _packet_-nya adalah 6 seperti pada gambar dibawah:
+Untuk menghitung packet yang menuju ip 184.87.193.88 tinggal melakukan filter `ip.dst == 184.87.193.88`. Setelah itu dapat dilihat jumlah _packet_-nya adalah 6 seperti pada gambar dibawah:
 
-![soal7](https://media.discordapp.net/attachments/1150687865420906517/1154672751043432458/image.png?width=1040&height=585)
+![soal7](https://media.discordapp.net/attachments/1150687865420906517/1154754087200501770/Screenshot_960.png?width=1246&height=701)
 
 ## **Soal Nomor 8**
 Berikan kueri filter sehingga wireshark hanya mengambil semua protokol paket yang menuju port 80! (Jika terdapat lebih dari 1 port, maka urutkan sesuai dengan abjad)
